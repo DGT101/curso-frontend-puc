@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Filmes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SG-Cinema</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="filmes.html">Filmes</a></li>
+                <li><a href="sessoes.html">Sessões</a></li>
+                <li><a href="salas.html">Salas</a></li>
+                <li><a href="ingressos.html">Ingressos</a></li>
+                <li><a href="clientes.html">Cliente</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Filme</h2>
+        <form action="#">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" name="titulo" placeholder="nome filme (alt+t)">
+            
+            <label for="classificacao">Classificação:</label>
+            <select id="classificacao" name="classificacao">
+                <option value="livre">Livre</option>
+                <option value="10">10 anos</option>
+                <option value="12">12 anos</option>
+                <option value="14">14 anos</option>
+                <option value="16">16 anos</option>
+                <option value="18">18 anos</option>
+            </select>
+            
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+                <option value="acao">Ação</option>
+                <option value="comedia">Comédia</option>
+                <option value="drama">Drama</option>
+                <!-- Adicione outros gêneros conforme necessário -->
+            </select>
+            
+            <label for="resumo">Resumo:</label>
+            <textarea id="resumo" name="resumo"></textarea>
+            
+            <button type="submit">Cadastrar Filme</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 SG-Cinema</p>
+    </footer>
+</body>
+</html>

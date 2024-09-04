@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Compra de Ingressos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SG-Cinema</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="filmes.html">Filmes</a></li>
+                <li><a href="sessoes.html">Sessões</a></li>
+                <li><a href="salas.html">Salas</a></li>
+                <li><a href="ingressos.html">Ingressos</a></li>
+                <li><a href="clientes.html">Cliente</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Compra de Ingressos</h2>
+        <form action="#">
+            <label for="cliente">Cliente:</label>
+            <select id="cliente" name="cliente">
+                <option value="cliente1">Cliente 1</option>
+                <!-- Adicione opções dinamicamente conforme os clientes cadastrados -->
+            </select>
+
+            <label for="sessao">Sessão:</label>
+            <select id="sessao" name="sessao">
+                <option value="sessao1">Sessão 1</option>
+                <!-- Adicione opções dinamicamente conforme as sessões cadastradas -->
+            </select>
+
+            <label for="tipo-ingresso">Tipo de Ingresso:</label>
+            <select id="tipo-ingresso" name="tipo-ingresso">
+                <option value="inteiro">Inteiro</option>
+                <option value="meia">Meia</option>
+            </select>
+
+            <button type="submit">Comprar Ingresso</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 SG-Cinema</p>
+    </footer>
+</body>
+</html>
